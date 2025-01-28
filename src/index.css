@@ -3,4 +3,49 @@
 
 body {
   background-color: red;
+  background-image: url('./assets/hinter.png');
+  background-size: 50%; 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: scroll;
+
 }
+
+.product-card {
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.group-hover\:scale-150:hover {
+  transform: scale(1.5);
+}
+
+.group-hover\:fixed:hover {
+  position: fixed;
+}
+
+.group-hover\:top-1\/2:hover {
+  top: 50%;
+}
+
+.group-hover\:left-1\/2:hover {
+  left: 50%;
+}
+
+.group-hover\:transform:hover {
+  transform: translate(-50%, -50%);
+}
+
+.group-hover\:-translate-x-1\/2:hover {
+  transform: translateX(-50%);
+}
+
+.group-hover\:-translate-y-1\/2:hover {
+  transform: translateY(-50%);
+}
+
+
